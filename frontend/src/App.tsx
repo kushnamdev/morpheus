@@ -53,17 +53,10 @@ function App() {
           </p>
         </div>
       )}
-      <main className="max-w-2xl mx-auto flex gap-16 px-4">
-        <div className="py-8 flex flex-col justify-center">
-          <h1 className="text-4xl font-bold uppercase mb-4">
-            <span className="text-5xl">
-              URL to Video
-            </span>
-            <br />
-            <span className="bg-gradient-to-br from-emerald-300 from-30% to-sky-300 bg-clip-text text-transparent">
-              with power of AI
-            </span>
-          </h1>
+      <main className="max-w-2xl mx-auto gap-8 flex px-4">
+      <div className="py-8 justify-center flex flex-col ">
+      <h1 className=" text-4xl font-bold uppercase mb-4"> <span className="text-5xl bg-gradient-to-br from-emerald-500  to-sky-800 bg-clip-text text-transparent"> Morphius </span> <br/> A url to Video convertor</h1>
+    <p className="mb-4">Enter the URL of a News Article to Generate a video of it</p>
           <form
             onSubmit={handleSubmit}
             className="grid gap-2">
